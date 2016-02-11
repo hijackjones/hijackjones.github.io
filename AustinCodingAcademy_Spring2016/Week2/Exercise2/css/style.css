@@ -1,5 +1,6 @@
 div {
     width: 500px;
+    position: absolute;
 }
 
 img {
