@@ -4,6 +4,11 @@
 }
 */
 
+body {
+    width: 80%;
+    margin-left: 10;
+}
+
 .title {
     background-color: #0171C5;
     color: whitesmoke;

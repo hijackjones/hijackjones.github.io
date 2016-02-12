@@ -1,0 +1,59 @@
+/*Type Selector*/
+
+p {
+    color: orange;
+    font-size: 20px;
+}
+
+span {
+    color: green;
+    text-decoration: line-through;
+}
+
+/*Class Selector*/
+
+em.highlight {
+    background-color: hotpink;
+
+}
+
+h4.hightlight {
+    font-size: 3em;
+}
+
+stong.hightlight {
+    color: blue;
+}
+
+.highlight {
+    text-decoration: underline;
+}
+
+/*ID Selector*/
+
+#overview h4 {
+    font-family: monospace;
+}
+
+h4#strategy {
+    font-size: 30px; 
+}
+
+/*Descendant Selector*/
+
+#ex4 section aside h4 {
+/*nth-child(2) {*/
+    color: purple;
+}
+
+/*Child Selector*/
+
+#example > article > p {
+    font-size: 10px;
+}
+
+/*Pseudo class selector*/
+
+li:hover {
+    color: red;
+}
