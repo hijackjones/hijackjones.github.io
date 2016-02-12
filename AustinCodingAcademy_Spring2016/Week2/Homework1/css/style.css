@@ -1,3 +1,7 @@
+* {
+    outline: 1px black solid;
+}
+
 .title {
     background-color: #0171C5;
     color: whitesmoke;
@@ -77,6 +81,7 @@ p {
 #right-future {
     float: right;
     width: 50%;
+    padding-top: 60px;
     
 }
 
@@ -96,16 +101,18 @@ p {
 }
 
 .future {
-/*    margin-left: 10px;*/
+    margin-left: 10px;
     
     
 }
 
+/*
 img {
     float: right;
     clear: both;
     
 }
+*/
 
 .content {
     background: fff;
