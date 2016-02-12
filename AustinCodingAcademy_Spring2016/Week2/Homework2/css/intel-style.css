@@ -35,7 +35,7 @@ main aside h3 {
 /*    background-color: 000;*/
 }
 
-main > p {
+main p {
     font-size: 16px;
     color: #555;
 }
