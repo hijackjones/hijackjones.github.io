@@ -56,22 +56,26 @@ p {
     float: left;
     width: 60%;
     vertical-align: middle;
+    display: inline-block;
 
 }
 
 #right-tout {
     float: right;
     width: 40%;
+    display: inline-block;
     
 }
 
 #left-future {
     float: left;
+    width: 50%;
     
 }
 
 #right-future {
     float: right;
+    width: 50%;
     
 }
 
