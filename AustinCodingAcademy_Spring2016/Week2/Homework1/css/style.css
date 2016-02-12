@@ -52,11 +52,11 @@ p {
 }
 
 #left-tout {
-    
+    padding-top: 60px;
     float: left;
     width: 60%;
-    vertical-align: middle;
-    display: inline-block;
+/*    vertical-align: middle;*/
+/*    display: inline-block;*/
 
 }
 
@@ -68,6 +68,7 @@ p {
 }
 
 #left-future {
+    
     float: left;
     width: 50%;
     
@@ -95,7 +96,7 @@ p {
 }
 
 .future {
-    margin-left: 10px;
+/*    margin-left: 10px;*/
     
     
 }
