@@ -1,0 +1,22 @@
+.container {
+    width: 850px;
+    border: 1px red dotted;
+}
+
+.header {
+    border: 1px black dotted;
+    margin-bottom: 20px;
+    text-align: center;
+    background-image: url("img/nasa-background.jpg");
+/*    margin: auto;*/
+}
+
+.footer {
+    border: 1px black dotted;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 50px;
+    color: #000;
+}
