@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+
+li {
+    
+    display: inline-block;
+    padding-right: 10px
+}
+
+nav {
+    background-color: #313131;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.green {
+    float: left;
+}
+
+.top {
+    padding-left: 20px;
+}
+
+

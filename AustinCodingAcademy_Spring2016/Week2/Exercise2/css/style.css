@@ -1,23 +1,17 @@
+/*
 div {
     width: 500px;
     position: absolute;
 }
+*/
+
 
 img {
-    width: inherit;
+    width: 500px;
 }
 
-.left {
-    float: left;
 
-}
-
-.right {
-    float: right;
-    text-align: center;
-    background-color: rgb(240,240,240);
-}
-
+/*
 h1 {
     color: #252b3b;
     font-size: 1.9em;
@@ -26,4 +20,11 @@ h1 {
 p {
     color: #555555;
     padding-bottom: 20px;
+}
+*/
+
+.square {
+    width: 500px;
+    background-color: red;
+    margin: 1px;
 }
