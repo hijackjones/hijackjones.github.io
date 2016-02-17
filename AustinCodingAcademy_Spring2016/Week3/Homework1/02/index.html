@@ -4,21 +4,26 @@
         <title>Column collapse</title>
         <style>
             body {
+/*                width: 960px;*/
                 width: 960px;
                 margin: 0 auto;
             }
             .parent-container {
                 background-color: #d0b783;  
                 overflow: hidden;
+                
             }
             
             .child-container {
                 background-color: #bcd2d0;
                 float: left;
                 margin: 10px 25px 10px 10px;
-                width: 250px;
+/*              width: 250px;*/  
+                width: 205px;
                 height: 300px;
             }
+            
+/*            My solution was to calculate the total width of all elements of the child-container class (four containers at 250px each gives me 1,000px total).  Then I added in the left and right margins (right is 25px and left is 10px for a total of 35px for each child container)  So each child container requires 285px.  285 x 4 = 1,140.  The parent container gives me 960 pixels to work with.  I subtracted 960 from 1,140 and that gave me 180.  If I divide 180 by 4, that gives me 45, which is the number of pixels that I'd need to reduce each child-container by.  My new width for child-container is now 205px */
             
         </style>
     </head>
@@ -30,7 +35,7 @@
         <div class="parent-container"> 
             <div class="child-container">First</div>
             <div class="child-container">Second</div>
-            <div class="child-container">Thrid</div>
+            <div class="child-container">Third</div>
             <div class="child-container">Fourth</div>
         </div>
     </body>
