@@ -15,7 +15,12 @@ div, p {
     padding: 1px;
 }
 
-.box {}
+.box {
+    padding: 10px;
+    margin: 20px;
+    border: 5px dashed brown;
+    background: yellow;
+}
 
 p {
     background: #EEA458;
