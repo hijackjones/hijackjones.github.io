@@ -1,0 +1,65 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    width: 800px;
+    margin: auto;
+        
+}
+
+.header {
+    text-align: center;
+/*    width: 70%;*/
+    overflow: auto;
+}
+
+h1 {
+    color: #999;
+    margin: 20px;
+    font-weight: 100;
+}
+
+h3 {
+    color: #999;
+/*    margin: 20px;*/
+/*    margin-left: 10px;*/
+    font-weight:500;
+    font-size: 16px;
+}
+
+p {
+    line-height: 150%;
+    color: #999;
+    font-size: 13px;
+}
+
+a {
+    color: green;
+    float: right;
+    padding-bottom: 40px;
+}
+
+.content {
+    width: 350px;
+    float: left;
+    background: #f7f7f7;
+    padding: 10px;
+    margin-right: 10px;
+    height: 300px;
+}
+
+.aside > div {
+    width: 320px;
+    height: 90px;
+    float: left;
+    background: #f7f7f7;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+img {
+    width: 100%; /* THIS IS HOW YOU MAKE AN IMAGE FIT WITHIN ITS CONTAINER*/
+/*    padding: 10px;*/
+/*    margin: auto;*/
+}
