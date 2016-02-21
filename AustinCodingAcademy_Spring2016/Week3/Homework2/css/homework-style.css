@@ -39,6 +39,10 @@ a {
 
 }
 
+#body {
+    display: inline-block;
+}
+
 .content {
     width: 350px;
     float: left;
@@ -46,10 +50,12 @@ a {
     padding: 10px;
     margin-right: 10px;
     height: 300px;
+    
 }
 
 .aside {
     overflow: auto;
+    
 }
 
 .aside > div {
@@ -79,12 +85,16 @@ img {
     border-bottom: 2px solid #f7f7f7;
     padding: 10px;
     overflow: auto;
-
+    display: inline-block;
 }
 
 .footercolumn {
     float: left;
     width: 30%;
+/*    align-content: center;  <-- this crap doesn't work*/
+    
+/*    margin: 0 auto;*/
+
 
 }
 
@@ -96,4 +106,12 @@ img {
 
 ul {
     list-style-image: url('../img/green_check.png');
+}
+
+.footer > div:nth-child(2) {
+/*    border: 1px dotted red;*/
+    border-left: 2px solid #f7f7f7;
+    border-right: 2px solid #f7f7f7;
+    margin-right: 20px;
+    padding-left: 20px;
 }
