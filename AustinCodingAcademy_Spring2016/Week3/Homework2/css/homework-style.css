@@ -48,6 +48,10 @@ a {
     height: 300px;
 }
 
+.aside {
+    overflow: auto;
+}
+
 .aside > div {
     width: 320px;
     height: 90px;
@@ -62,4 +66,34 @@ img {
     width: 100%; /* THIS IS HOW YOU MAKE AN IMAGE FIT WITHIN ITS CONTAINER*/
 /*    padding: 10px;*/
 /*    margin: auto;*/
+}
+
+.aside > div > img {
+    width: 40%;
+}
+
+.footer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: 2px solid #f7f7f7;
+    border-bottom: 2px solid #f7f7f7;
+    padding: 10px;
+    overflow: auto;
+
+}
+
+.footercolumn {
+    float: left;
+    width: 30%;
+
+}
+
+.footercolumn > p, ul {
+    font-size: 11px;
+    color: #999;
+    line-height: 180%
+}
+
+ul {
+    list-style-image: url('../img/green_check.png');
 }
