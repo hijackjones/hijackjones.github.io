@@ -48,6 +48,17 @@ body {
     float: right;
 }
 
+
+.aside > div {
+    width: 280px;
+    height: 77px;
+/*        float: left;*/
+    background: #f7f7f7;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
 h1 {
     color: #999;
     margin: 20px;
@@ -74,21 +85,12 @@ a {
 }
 
 
-.aside > div {
-    width: 280px;
-    height: 70px;
-/*        float: left;*/
-    background: #f7f7f7;
-    padding: 10px;
-    margin-left: 10px;
-    margin-bottom: 15px;
-}
-
 .shortpost {
 /*    height: 90px;*/
 /*    width: 100%;*/
 /*    width: 280px;*/
 /*    border: 1px dashed green;*/
+    margin-left: 20px;
 }
 
 img {
@@ -138,6 +140,10 @@ ul {
 
 li {
     margin-left: -20px;
+}
+
+.shortpost > h3 p {
+    margin-left: 10px;
 }
 
 .shortpost-header {
