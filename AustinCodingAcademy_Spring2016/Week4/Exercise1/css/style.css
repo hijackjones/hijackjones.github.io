@@ -30,18 +30,19 @@ h1 {
 h2 {
     color: #8ba80a;
     font-family: sans-serif;
+    font-size: 20px;
 /*    margin-bottom: 30px;*/
 }
 
 .garden > div {
     background-color: rgba(0, 0, 0, .5);
-    padding: 100px 0;
+    padding: 100px 20px;
 }
 
 #uno {
     background-image: url(../img/featured-image-3.jpg);
     background-size: cover;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 #dos {
@@ -53,14 +54,19 @@ h2 {
 #tres {
     background-image: url(../img/featured-image-5.jpg);
     background-size: cover;
-    width: 68%;
+    width: 69%;
     float: left;
-    margin-left: 2%;
+    margin-left: 1%;
+}
+
+/* ############# WORKING ON THIS ############## */
+#tres > div {
+    padding: 160px 20px;
 }
 
 .opacity > div {
     background-color: rgba(0, 0, 0, .5);
-    padding: 100px 20px;
+    padding: 100px 30px;
 }
 
 .opacity {
@@ -92,6 +98,7 @@ a {
 
 .rt-button {
     padding: 13px;
+    margin-left: 20px;
     border: solid white 1.5px;
 
 }
