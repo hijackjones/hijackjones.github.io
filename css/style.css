@@ -23,6 +23,27 @@ div {
     float: left;
 }
 
+/* unvisited link */
+a:link {
+    color: dodgerblue;
+}
+
+/* visited link */
+a:visited {
+    color: rebeccapurple;
+}
+
+/* mouse over link */
+a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
 
 .clearfix:after {
     clear: both;
