@@ -16,6 +16,12 @@ h2 {
     font-size: 40px;
 }
 
+h3 {
+    font-size: 30px;
+    font-style: italic;
+    
+}
+
 main > div> p {
     font-style: italic;
 }
@@ -30,7 +36,7 @@ ul {
 
 nav a {
     color: #666;
-    margin-left: 5px;
+    margin-left: 8px;
     text-decoration: none;
     font-size: .75em;
 }
@@ -53,15 +59,26 @@ main > div {
 
 .two-boxes div {
     float: left;
+    text-align: center;
 }
 
 .two-boxes > div:first-child {
     width: 60%;
+    margin-top: 14%;
 }
 
 .two-boxes > div:nth-child(1) {
     width: 40%;
 }
+
+.two-boxes > div > p:first-child {
+    margin-bottom: 25px;
+}
+
+.two-boxes > div > h3 {
+    margin-bottom: 30px;
+}
+
 
 .two-boxes img {
     width: 70%;
@@ -70,6 +87,27 @@ main > div {
 
 main > div p {
 /*    font-style: italic;*/
+}
+
+
+.thirdbox {
+/*    padding: 2% 1%;*/
+    width: 100%;
+    background-image: url(../img/wine13.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    
+}
+
+.thirdbox > div {
+    background-color: rgba(0,0,0,.8);
+    padding: 200px 110px;   
+}
+
+.thirdbox div p {
+    margin-top: 40px;
+    font-size: 13px;
 }
 
 /*
