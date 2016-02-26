@@ -110,33 +110,35 @@ main > div p {
     font-size: 13px;
 }
 
-/*
-.main {
-    width: 900px;
-    margin: auto;
-    border: 1px gray dotted;
-    font-family: 'Open Sans', sans-serif; 
+
+.bottom > div > img {
+    width: 20%;
 }
 
-.title {
+.bottom {
+    width: 100%;
+}
+
+.bottom > div {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    width: 30%;
     float: left;
+    margin-bottom: 10px;
 }
 
-.nav {
-    float: right;
+.bottom > div > p {
+    margin-bottom: 20px;   
 }
 
-li {
-    display: inline-block;
-    font-size: 12px;
-    margin-left: 6px;
-    color: #666;
+.bottom > div > a {
+    color: white;
+    background-color: #909f5e;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
 }
-
-h2 {
-    font-family: 'Open Sans', sans-serif; 
-}
-*/
 
 .clearfix:after {
     clear: both;
