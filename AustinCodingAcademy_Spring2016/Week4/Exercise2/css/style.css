@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Bell;
+    src: url(../fonts/BELL.TTF)
+}
+
+p {
+    font-family: 'Bell', sans-serif;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    color: red;
+}
+
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}

@@ -1,0 +1,110 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    padding: 2% 1%;
+    width: 98%;
+}
+
+h1 {
+    font-size: 25px;
+    float: left;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+main > div> p {
+    font-style: italic;
+}
+
+nav li {
+   display: inline-block;
+}
+
+ul {
+    float: right;
+}
+
+nav a {
+    color: #666;
+    margin-left: 5px;
+    text-decoration: none;
+    font-size: .75em;
+}
+
+main {
+    background-image: url(../img/wine-bg.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+main > div {
+    background-color: rgba(0,0,0,.8);
+    padding: 200px 0;
+}
+
+.two-boxes {
+    width: 100%;
+}
+
+.two-boxes div {
+    float: left;
+}
+
+.two-boxes > div:first-child {
+    width: 60%;
+}
+
+.two-boxes > div:nth-child(1) {
+    width: 40%;
+}
+
+.two-boxes img {
+    width: 70%;
+    margin-left: 15%;
+}
+
+main > div p {
+/*    font-style: italic;*/
+}
+
+/*
+.main {
+    width: 900px;
+    margin: auto;
+    border: 1px gray dotted;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.title {
+    float: left;
+}
+
+.nav {
+    float: right;
+}
+
+li {
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 6px;
+    color: #666;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif; 
+}
+*/
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
