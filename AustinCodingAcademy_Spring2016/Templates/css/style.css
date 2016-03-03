@@ -1,3 +1,20 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Clear fix fixes collapsing tables.  Apply clearfix to the parent container.*/
+
 .clearfix:after {
     clear: both;
     content: ".";

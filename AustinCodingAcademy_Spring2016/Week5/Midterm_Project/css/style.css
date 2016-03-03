@@ -1,0 +1,119 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 10px;
+}
+
+nav > h1 {
+    float: left;
+}
+
+nav > ul {
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+a:link {
+    color: #000;
+}
+
+a:visited {
+    color: #000;
+}
+
+a:hover {
+    color: darkred;
+    text-decoration: none;
+}
+
+a:active {
+    color: #000;
+}
+
+/*FIRST BOX*/
+
+.section1 {
+    text-align: center;
+    background-image: url(../img/pizza.png);
+    background-size: cover;
+    text-align: center;
+    color: #000;
+/*    padding: 100px 200px;*/
+    border: 1px black dotted;
+}
+
+.section1 a {
+    border: 2px solid black;
+    padding: 5px 15px;
+    margin-top: 30px;
+    
+}
+
+.section1 > div {
+    background-color: rgba(255,255,255,.5);
+    padding: 100px 200px;
+}
+
+.section1 p {
+    margin-bottom: 30px;
+}
+
+
+
+/*SECOND BOX*/
+
+.section2 {
+    width: 98%;
+    margin-top: 50px;
+}
+
+.section2_left {
+    width: 29%;
+    float: left;
+    padding-left: 2%;
+}
+
+.section2_right {
+    width: 69%;
+    float: left;
+}
+
+.section2_right h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
