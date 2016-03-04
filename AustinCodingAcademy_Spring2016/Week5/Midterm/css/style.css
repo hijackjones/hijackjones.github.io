@@ -1,0 +1,46 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 1072px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1px;
+}
+
+.about {
+    width: 80%;
+    margin: auto;
+}
+
+.about > h2 {
+    text-align: center;
+}
+
+.photos {
+    width: 90%;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.photos > img {
+    width: 200px;
+    height: 200px;
+    padding: 40px;
+}
+
+
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}

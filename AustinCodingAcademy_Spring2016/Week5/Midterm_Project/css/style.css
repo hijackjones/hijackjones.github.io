@@ -109,6 +109,20 @@ a:active {
     margin-bottom: 20px;
 }
 
+
+/*THIRD BOX*/
+
+.section3 {
+    background-color: green;
+}
+
+.section3 > div {
+    float: left;
+    width: 20%;
+    align-content: center;
+}
+
+
 .clearfix:after {
     clear: both;
     content: ".";
