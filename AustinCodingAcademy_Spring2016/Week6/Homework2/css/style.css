@@ -1,0 +1,96 @@
+body {
+    margin: auto;
+    padding: 0;
+    font-family: sans-serif;
+    width: 100%;
+}
+
+.top {
+    background-color: #2BCDC0;
+    text-align: center;
+    color: #fff;
+    padding: 100px;
+/*    width: 80%;*/
+}
+
+.middle {
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    padding: 100px;
+/*    width: 80%;*/
+}
+
+.bottom {
+    background-color: #33A8DD;
+    text-align: center;
+    color: #fff;
+/*    padding: 100px;*/
+
+}
+
+.bottom > div {
+    float: left;
+    background-color: #33A8DD;
+/*    border: 1px black solid;*/
+    width: 20%;
+    padding: 2.5%;
+}
+
+.bottom > div:nth-child(1) {
+    border-top: 20px solid black;
+    margin-top: 30px;
+}
+
+.bottom > div:nth-child(2) {
+    border-top: 20px solid black;
+    margin-top: 30px;
+}
+
+.bottom > div:nth-child(3) {
+    border-top: 20px solid black;
+    margin-top: 30px;
+}
+
+.bottom > div:nth-child(4) {
+    border-top: 20px solid black;
+    margin-top: 30px;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    footer div {
+        float: left;
+        text-align: center;
+        margin: auto;
+        width: 50%;
+
+    }
+}
+
+
+@media (max-width: 767px) {
+    
+    footer div {
+        float: left;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+
+    }
+    
+}
+
+
+/*Clear fix fixes collapsing tables.  Apply clearfix to the parent container.*/
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
