@@ -1,0 +1,31 @@
+.my_header {
+    background-color: bisque;
+}
+
+img {
+    width: 100%;
+}
+
+
+li {
+    display: inline-block;
+}
+
+.my_nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: darkseagreen;
+    
+}
+
+.my_nav ul {
+    margin: 20px 0;
+    padding-left: 0;
+}
+
+li a {
+    color: dodgerblue;
+    font-size: 18px;
+    margin-right: 14px;
+}
+

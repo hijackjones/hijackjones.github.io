@@ -1,0 +1,53 @@
+h1 {
+    color: #2f79b9;
+    margin-left: 10px;
+}
+
+nav {
+    margin-top: 13px;
+}
+
+li {
+    display: inline-block;
+    padding: 5px 26px;
+    margin-left: 5px;
+    border: 2px solid #2f79b9;
+    background-color: #f2f2f2;
+    border-radius: 3px;
+    font-weight: 700;
+}
+
+ul {
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 20px;
+    
+}
+
+.my_slider {
+    border: 1px green solid;
+/*    background-image: url(../img/space-desk-workspace-coworking.jpg);*/
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+}
+
+.search_form {
+/*    border: 1px red solid;*/
+}
+
+.call_btn {
+    border: 1px orange solid;
+}
+
+.left_image {
+    border: 1px pink solid;
+}
+
+.four_thumbs {
+    border: 1px purple solid;
+}
+
+.my_footer {
+    text-align: center;
+}
