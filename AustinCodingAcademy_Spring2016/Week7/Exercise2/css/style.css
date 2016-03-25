@@ -1,0 +1,19 @@
+/*Header styles*/
+
+.my_logo {
+    width: 200px;
+}
+
+.my_header {
+    background-color: black;
+    padding: 20px;
+}
+
+.carousel-inner {
+    max-height: 425px;
+    overflow: hidden;
+}
+
+.carousel-caption {
+    top: 0;
+}

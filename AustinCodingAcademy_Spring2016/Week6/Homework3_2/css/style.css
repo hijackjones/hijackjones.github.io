@@ -1,0 +1,88 @@
+h1 {
+/*    color: #5f411d;*/
+    color: purple;
+    margin-left: 10px;
+}
+
+nav {
+    margin-top: 13px;
+}
+
+li {
+    display: inline-block;
+    padding: 5px 26px;
+    margin-left: 5px;
+    border: 2px solid purple;
+    background-color: #fafafa;
+    border-radius: 3px;
+    font-weight: 700;
+}
+
+ul {
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 20px;
+    
+}
+
+a {
+    color: purple;
+}
+
+.my_slider {
+/*    border: 1px green solid;*/
+/*    background-image: url(../img/space-desk-workspace-coworking.jpg);*/
+/*    background-size: cover;*/
+    background-size: cover;
+    overflow: hidden;
+/*    background-position: center;*/
+/*    padding-right: 145px;*/
+
+}
+
+.search_form {
+/*    border: 1px red solid;*/
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+
+.call_btn {
+    background-image: url(../img/woman-hand-smartphone-desk-500.jpg);
+    background-size: cover;
+    overflow: hidden;
+    height: 100%;
+    padding: 8.5% 0;
+/*    margin: 10px;*/
+}
+
+
+.call_btn > p {
+    border: 4px black solid;
+    background-color: rgba(250,250,250,0.6);
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 3px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 30px;
+    
+}
+
+.left_image {
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+.left_image > img {
+    border: 1px purple solid;
+}
+
+.four_thumbs {
+    padding-top: 10px;
+}
+
+.my_footer {
+    text-align: center;
+}
