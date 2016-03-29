@@ -18,6 +18,7 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
 </head>
 
 <body>
@@ -61,7 +62,7 @@
 
     <!-- Top section -->
     <div class="container-fluid">
-        <div class="row clearfix">
+        <div class="row">
 
             <!-- Image Slider -->
             <div class="col-md-8">
@@ -119,18 +120,20 @@
         </div>
 
     </div>
-    <div class="clearfix"></div>
+
 
     <!-- second row -->
-    <div class="container-fluid clearfix">
+    <div class="container-fluid">
+        <!--        <div class="clearfix"></div>-->
         <div class="row">
-            <div class="col-md-3 col-sm-6">
-                </p><img src="img/lsm.jpg"></p>
+            <div class="col-md-3 col-sm-3">
+                <p></p>
+                <img src="img/lsm.jpg">
 
             </div>
 
 
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-3">
                 <h3>Austin is a great city</h3>
                 <p>There are a lot of people that live here. Too many people. But it's nice. Ex summis a summis, summis cupidatat familiaritatem. Proident nulla in nescius efflorescere, multos tempor ex aliquip, veniam officia de excepteur ubi dolor probant domesticarum, iis ubi consectetur, id sed malis sunt eram, a eiusmod sempiternum si ne consequat imitarentur. Ingeniis ubi lorem. Aliqua cernantur ullamco. Summis doctrina hic lorem culpa, o minim sunt minim iudicem. Quae paeram, a eiusmod sempiternum si ne consequat imitarentur. Ingeniis ubi lorem. Aliqua cernantur ullamco. Summis doctrina hic lorem culpa, o minim sunt minim iudicem. Quae pariatur ita tempor ab laboris eu duis. Ubi cernantur ita singulis.</p>
 
@@ -138,16 +141,43 @@
 
 
             <div class="col-md-3">
-                <p><img src="img/hmlton.jpg"></p>
+                <p></p>
+                <img src="img/hmlton.jpg">
 
             </div>
 
             <div class="col-md-3 col-sm-6">
                 <h3>Hamilton Pool is great</h3>
                 <p>This spot is really pretty. And it's kind of hidden in southwest Austin. Ipsum excepteur ea malis sint, quid quamquam se mentitum ut eu fore officia, consequat ab labore cernantur, nisi ad ita cillum nescius, officit irure cupidatat, nam aut consectetur aut amet distinguantur voluptate minim expetendis non sunt excepteur coniunctio nam aut consectetur aut amet distinguantur voluptate minim expetendis non sunt excepteur coniunctione. Eram se quibusdam ita sint de ita cillum varias qui vidisse. Possumus minim doctrina ingeniis, iis amet dolor minim aliquip.</p>
-                <p>
-                    <btn></btn>
-                </p>
+
+                <div class="container my_modal">
+                    <!--                        <h2>Modal Example</h2>-->
+                    <!-- Trigger the modal with a button -->
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Click Here</button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">So beautiful, right?</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Hamilton Pool Preserve is a natural pool that was created when the dome of an underground river collapsed due to massive erosion thousands of years ago. The pool is located about 23 miles west of Austin, Texas off Highway 71.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
 
             </div>
 
@@ -188,70 +218,121 @@
     </div>
 
 
-    <!-- Parallax esta aqui!-->
+    <!-- Parallax -->
+    <!--parallax 1 -->
+    <section class="bg-1 text-center">
+        <div data-spy="affix" data-offset-top="400" data-offset-bottom="1000">
+            <h1>Bootstrap Parallax</h1>
+            <p class="lead">Add Some Motion</p>
+        </div>
+    </section>
+    <!--/parallax 1-->
 
-    <div class="container-fluid">
+
+    <div class="container">
+
+        <hr>
+
         <div class="row">
-            <div class="bg"></div>
-            <div class="jumbotron">
-                <h1>Bootstrap Jumbotron</h1>
-                <p class="lead">+ Parallax Effect using jQuery</p>
-            </div>
-
-            <div class="container">
-                <div class="row">
-                    <h2>Page Content</h2> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. Aliquam in felis sit amet augue.
-                    <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. Aliquam in felis sit amet augue.
-                    <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. Aliquam in felis sit amet augue.
-                    <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. Aliquam in felis sit amet augue.
-                </div>
-                <hr>
-                <div class="row">
-                    <h2>Page Content</h2> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. Aliquam in felis sit amet augue.
-                    <h2>Page Content</h2> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. Aliquam in felis sit amet augue.
-                    <h2>Page Content</h2> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. Aliquam in felis sit amet augue.
-
-                </div>
-                <hr>
-                <div class="row">
-                    <h2>Page Content</h2> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. Aliquam in felis sit amet augue.
-                </div>
-            </div>
-
-            <hr>
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <p>The End.</p>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3>Hello.</h3></div>
+                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. Aliquam in felis sit amet augue.
                     </div>
+                    <div class="panel-footer text-right"><a href="#" class="btn btn-default">More</a></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3>Hello.</h3></div>
+                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. Aliquam in felis sit amet augue.
+                    </div>
+                    <div class="panel-footer text-right"><a href="#" class="btn btn-default">More</a></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3>Hello.</h3></div>
+                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. Aliquam in felis sit amet augue.
+                    </div>
+                    <div class="panel-footer text-right"><a href="#" class="btn btn-default">More</a></div>
+                </div>
+            </div>
+        </div>
+        <!--/row-->
+
+        <hr>
+
+    </div>
+    <!--/container-->
+
+    <div class="divider"></div>
+
+    <section class="bg-2">
+        <div class="col-sm-10 col-sm-offset-1 text-center">
+
+            <h1>Barton Springs Pool</h1>
+            <p class="lead">Barton Springs Pool is a man-made recreational swimming pool located on the grounds of Zilker Park in Austin, Texas. The pool exists in the channel of Barton Creek and is filled by water from Main Barton Spring, the fourth largest spring in Texas.
+            </p>
+
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading my_panel_heading">
+                        <h3>Hello.</h3></div>
+                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. Aliquam in felis sit amet augue.
+                    </div>
+                    <div class="panel-footer text-right"><a href="#" class="btn btn-default">More</a></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3>Hello.</h3></div>
+                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. Aliquam in felis sit amet augue.
+                    </div>
+                    <div class="panel-footer text-right"><a href="#" class="btn btn-default">More</a></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3>Hello.</h3></div>
+                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. Aliquam in felis sit amet augue.
+                    </div>
+                    <div class="panel-footer text-right"><a href="#" class="btn btn-default">More</a></div>
                 </div>
             </div>
         </div>
     </div>
+    <!--/container-->
 
+    <div class="divider"></div>
 
-    <!-- Modal -->
-    <div class="modal fade" tabindex="-1" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title">Modal title</h4>
-                </div>
-                <div class="modal-body">
-                    <p>One fine body&hellip;</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-            </div>
-            <!-- /.modal-content -->
+    <!--parallax 2 -->
+    <section class="bg-3 text-center">
+        <h1>The Pennybacker Bridge</h1>
+        <p class="lead">The Percy V. Pennybacker Jr. Bridge in Austin, Texas, is a through-arch bridge across Lake Austin which connects the northern and southern sections of the Loop 360 highway, also known as the "Capital of Texas Highway." The road is widely considered one of the most scenic urban drives in Texas, in large part due to this arched weathering-steel bridge and the rolling hills that flank the road. In 2001, 48,000 vehicles crossed the bridge daily. Ten years prior to this, 22,000 vehicles had crossed the bridge daily.</p>
+    </section>
+    <!--/parallax 2-->
+
+    <div id="footer">
+        <div class="container">
+            <p class="text-muted">Austin Texas is really cool</p>
         </div>
-        <!-- /.modal-dialog -->
     </div>
-    <!-- /.modal -->
+
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

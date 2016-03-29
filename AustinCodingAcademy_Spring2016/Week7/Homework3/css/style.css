@@ -15,3 +15,66 @@
     text-shadow: #444 0 1px 1px;
     background: transparent;
 }
+
+.my_modal > button {
+    margin-left: 20px;
+}
+
+
+/*Parallax stuff*/
+
+.divider {
+    height: 50px;
+}
+
+section {
+    height: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: auto;
+}
+
+.affix-top,
+.affix-bottom {
+    width: 100%;
+    position: fixed;
+    display: block;
+}
+
+.affix {
+    display: none;
+}
+
+.bg-1 {
+    background: url('../img/austin_skyline.jpg') no-repeat center center fixed;
+    color: #fff;
+    background-size: cover;
+}
+
+.bg-2 {
+    background: url('../img/barton_springs.jpg') no-repeat top center fixed;
+    color: #fff;
+    background-size: cover;
+}
+
+.bg-3 {
+    background: url('../img/PennybackerBridge.jpg') no-repeat bottom center fixed;
+    color: #fff;
+    background-size: cover;
+}
+
+#footer {
+    height: 60px;
+    background-color: #585858;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#footer a {
+    color: #efefef;
+}
+
+.my_panel_heading {
+    border-radius: 50px;
+}
