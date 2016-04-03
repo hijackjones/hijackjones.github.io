@@ -1,0 +1,40 @@
+p,
+h1,
+h2,
+nav {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 900;
+}
+
+section0 div {
+    /*
+    background-color: #666;
+    color: white;*/
+    text-align: center;
+}
+
+section1 div {
+    border: 1px solid green;
+    text-align: center;
+}
+
+section1 h2 {
+    text-align: center;
+}
+
+.section1_info {
+    padding: 70px;
+}
+
+.section1_dark {
+    background-color: #444;
+}
+
+.section1_info {
+    background-color: #333;
+    color: white;
+}
+
+.navbar {
+    background-color: white;
+}

@@ -1,13 +1,11 @@
 .yella_main {
     background-color: #F4ED47;
     height: 500px;
-    padding: 100px;
 }
 
 .gray_main {
     background-color: #EEE;
     height: 500px;
-    padding: 100px;
 }
 
 .talk_box {
@@ -16,17 +14,16 @@
 
 .small_box {
     height: 250px;
-    /*    padding: 20px;*/
 }
 
 .my_contact {
     background-color: #F4ED47;
-    padding: 100px;
+    /*    padding: 100px;*/
     text-align: center;
     max-height: 100px;
 }
 
-img {
+.my_img {
     width: 100%;
     height: 100%;
 }
