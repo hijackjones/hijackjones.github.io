@@ -4,6 +4,11 @@ h2,
 nav {
     font-family: 'Varela Round', sans-serif;
     font-weight: 900;
+    color: #353941;
+}
+
+h1 {
+    font-size: 50px;
 }
 
 section0 div {
@@ -14,12 +19,12 @@ section0 div {
 }
 
 section1 div {
-    border: 1px solid green;
     text-align: center;
 }
 
 section1 h2 {
     text-align: center;
+    color: white;
 }
 
 .section1_info {
@@ -27,13 +32,29 @@ section1 h2 {
 }
 
 .section1_dark {
-    background-color: #444;
+    background-color: #353941;
+    padding-top: 25px;
+    padding-left: 40px;
+    padding-right: 60px;
+    height: 350px;
 }
 
+section1 p {
+    color: white;
+    text-align: left;
+}
+
+hr {
+    width: 90%
+}
+
+
+/*
 .section1_info {
     background-color: #333;
     color: white;
 }
+*/
 
 .navbar {
     background-color: white;
