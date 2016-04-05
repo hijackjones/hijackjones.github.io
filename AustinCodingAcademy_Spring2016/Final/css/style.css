@@ -39,9 +39,19 @@ section1 h2 {
     height: 350px;
 }
 
+.section1_dark2 {
+    color: white;
+    text-align: left;
+}
+
 section1 p {
     color: white;
     text-align: left;
+}
+
+section1_dark > p {
+    color: white;
+    text-align: center;
 }
 
 hr {
@@ -58,4 +68,22 @@ hr {
 
 .navbar {
     background-color: white;
+}
+
+
+/*Google Maps*/
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 99% !important;
+    height: 100% !important;
 }
