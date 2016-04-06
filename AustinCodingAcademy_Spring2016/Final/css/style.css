@@ -7,6 +7,7 @@ p,
 h1,
 h2,
 h3,
+h4,
 nav {
     font-family: 'Varela Round', sans-serif;
     font-weight: 900;
@@ -34,6 +35,13 @@ h1 {
 .res_contact_btn {
     text-align: center;
 }
+
+
+/*
+section0 h1 {
+    color: green;
+}
+*/
 
 section0 div {
     /*
@@ -74,7 +82,7 @@ section1 p {
 
 section1_dark > p {
     color: white;
-    text-align: center;
+    /*    text-align: center;*/
 }
 
 hr {
@@ -93,12 +101,71 @@ hr {
     background-color: white;
 }
 
+section2 {
+    width: 90%;
+}
+
+section2 h2 {
+    text-align: center;
+}
+
+section2 h3 {
+    color: #009933;
+}
+
+.hdiw {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.your_boat {
+    margin-top: 30px;
+}
+
+.section3_grn {
+    background-color: #009933;
+    padding-top: 25px;
+    padding-left: 40px;
+    padding-right: 60px;
+    /*    height: 350px;*/
+}
+
+section3 h2 {
+    text-align: center;
+    color: #FFF;
+}
+
+section4 h2 {
+    text-align: center;
+}
+
+section4 {
+    text-align: center;
+}
+
+.footer_dark {
+    background-color: #353941;
+    color: #f2f2f2;
+    padding-top: 25px;
+    padding-left: 40px;
+    padding-right: 60px;
+    /*    height: 350px;*/
+}
+
+.j_footer p {
+    color: #f2f2f2;
+}
+
+.j_social {
+    text-align: right;
+}
+
 
 /*Google Maps*/
 
 .google-maps {
     position: relative;
-    padding-bottom: 75%; // This is the aspect ratio
+    padding-bottom: 75%;
     height: 0;
     overflow: hidden;
 }
@@ -109,4 +176,38 @@ hr {
     left: 0;
     width: 99% !important;
     height: 100% !important;
+}
+
+
+/*FAQ*/
+
+.jumbotron {
+    width: 80%;
+    margin-left: 10%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+.omacenter {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titre {
+    color: #fff;
+}
+
+.entete {
+    background-color: #22780F;
+    width: 80%;
+    margin-left: 10%;
 }
