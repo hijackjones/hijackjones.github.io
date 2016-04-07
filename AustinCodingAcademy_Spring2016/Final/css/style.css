@@ -21,6 +21,7 @@ h1 {
 .contact_mob {
     background-color: #009933;
     color: white;
+    text-align: center;
 }
 
 .contact_mob p {
@@ -37,16 +38,9 @@ h1 {
 }
 
 
-/*
-section0 h1 {
-    color: green;
-}
-*/
+/*Main section with dark background*/
 
 section0 div {
-    /*
-    background-color: #666;
-    color: white;*/
     text-align: center;
 }
 
@@ -68,7 +62,7 @@ section1 h2 {
     padding-top: 25px;
     padding-left: 40px;
     padding-right: 60px;
-    height: 350px;
+    min-height: 380px;
 }
 
 .section1_dark2 {
@@ -82,24 +76,20 @@ section1 p {
 
 section1_dark > p {
     color: white;
-    /*    text-align: center;*/
 }
 
 hr {
     width: 90%
 }
 
-
-/*
-.section1_info {
-    background-color: #333;
-    color: white;
-}
-*/
-
 .navbar {
-    background-color: white;
+    /*    background-color: white;*/
+/*    background-color: rgba(0, 153, 51, 0.05);*/
+    background-color: #f3faf5;
 }
+
+
+/*How it works section*/
 
 section2 {
     width: 90%;
@@ -122,26 +112,8 @@ section2 h3 {
     margin-top: 30px;
 }
 
-.section3_grn {
-    background-color: #009933;
-    padding-top: 25px;
-    padding-left: 40px;
-    padding-right: 60px;
-    /*    height: 350px;*/
-}
 
-section3 h2 {
-    text-align: center;
-    color: #FFF;
-}
-
-section4 h2 {
-    text-align: center;
-}
-
-section4 {
-    text-align: center;
-}
+/*Footer*/
 
 .footer_dark {
     background-color: #353941;
@@ -174,12 +146,33 @@ section4 {
     position: absolute;
     top: 0;
     left: 0;
-    width: 99% !important;
+    width: 100% !important;
     height: 100% !important;
 }
 
 
 /*FAQ*/
+
+.section3_grn {
+    background-color: #009933;
+    padding-top: 25px;
+    padding-left: 40px;
+    padding-right: 60px;
+    /*    height: 350px;*/
+}
+
+section3 h2 {
+    text-align: center;
+    color: #FFF;
+}
+
+section4 h2 {
+    text-align: center;
+}
+
+section4 {
+    text-align: center;
+}
 
 .jumbotron {
     width: 80%;
